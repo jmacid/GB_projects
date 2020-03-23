@@ -13,7 +13,9 @@ links used:
 + [BGB emulator](http://bgb.bircd.org/)
 
 
-## 2_ 
+## 2_sprites 
+
+It is added a sprite in the *game*.
 
 There are 3 layers of graphics:
 + *screen layer*
@@ -26,8 +28,10 @@ There are 3 layers of graphics:
 links used:
 + [GBTD](http://www.devrs.com/gb/hmgd/gbtd.html)
 
+## 3_joypad
+It is added the joypad functionality were the smile moves depending on the key pressed.
 
-
+![](img/3_joypad.gif "3_joypad")
 
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
