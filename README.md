@@ -33,5 +33,16 @@ It is added the joypad functionality were the smile moves depending on the key p
 
 ![](img/3_joypad.gif "3_joypad")
 
+## 4_background
+
+Background with movement.
+
+Utility used:
++ [GBMB](http://www.devrs.com/gb/hmgd/gbmb.html)
+
+![](img/4_background.gif "4_background")
+
+
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
