@@ -42,7 +42,11 @@ Utility used:
 
 ![](img/4_background.gif "4_background")
 
+## 5_window
+The last layer: the window layer. This layer is located in top of the others, son in order to see the background it is moved to the floor.
 
+
+![](img/5_window.gif "5_window")
 
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
