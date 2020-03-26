@@ -48,5 +48,14 @@ The last layer: the window layer. This layer is located in top of the others, so
 
 ![](img/5_window.gif "5_window")
 
+
+## 6_sounds
+
+
+The GB has 4 channels:
++ Channels 1 and 2: quadrangular wave
++ Channel 3: programmable wave table
++ Channel 4: noise generator
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
