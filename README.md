@@ -63,5 +63,10 @@ A noise sound is created using channel 4.
 Usefull link to test sounds:
 https://github.com/Zal0/GBSoundDemo
 
+
+## 8_jumping
+
+
 ## Video serie link:
-+ [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
++ [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
++ [Repo](http://bit.ly/2t676I4)
