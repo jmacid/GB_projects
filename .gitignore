@@ -16,3 +16,5 @@
 !7_noise/build/main.gb
 8_jumping/build/*
 !8_jumping/build/main.gb
+9_meta-sprites/build/*
+!9_meta-sprites/build/9_meta-sprites.gb
