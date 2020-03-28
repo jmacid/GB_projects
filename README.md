@@ -50,12 +50,18 @@ The last layer: the window layer. This layer is located in top of the others, so
 
 
 ## 6_sounds
-
-
 The GB has 4 channels:
 + Channels 1 and 2: quadrangular wave
 + Channel 3: programmable wave table
 + Channel 4: noise generator
+
+In this section, It is used the channel 1 to create a jumping noise.
+
+## 7_noise
+A noise sound is created using channel 4.
+
+Usefull link to test sounds:
+https://github.com/Zal0/GBSoundDemo
 
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/watch?v=HIsWR_jLdwo&list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJo)
