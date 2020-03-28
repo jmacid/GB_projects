@@ -66,6 +66,11 @@ https://github.com/Zal0/GBSoundDemo
 
 ## 8_jumping
 
+A jump function is implemented as well as horizontal movement. 
+
+A little of *physics" is implemented in order to recreate a jumping movement.
+
+![](img/8_jumping.gif "8_jumping")
 
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)

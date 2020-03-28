@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <gb/gb.h>
 
-volatile INT8 player_location[2] = {10, 100}; //stores two INT8 x and y position of player
+volatile INT8 player_location[2] = {10, 100};       //stores two INT8 x and y position of player
+volatile BYTE jumping = 0;                          // jumping variable. (0 is not jumping, 1 is jumping) 
+const UINT8 gravity = -2;
+volatile UINT8 currentspeedY = 0;
+const UINT8 floorYposition = 100;
 
 unsigned char bloke[] =
 {
@@ -30,6 +34,35 @@ void performantdelay(UINT8 numloops){
     }
 }
 
+INT8 would_hit_surface( UINT8 projectedYposition){
+    if ( projectedYposition >= floorYposition)
+        return floorYposition;
+    
+    return -1;
+}
+
+void jump(UINT8 spriteID, UINT8 spriteLocation[2]){
+    INT8 possibleSurfaceY ;
+    if( !jumping ) {
+        jumping = 1;
+        currentspeedY = 10;
+    }
+    
+    // work out current speed - effect of graviries aceleration down
+    currentspeedY = currentspeedY + gravity;
+
+    spriteLocation[1] -= currentspeedY;
+
+    possibleSurfaceY = would_hit_surface(spriteLocation[1]);
+
+    if (possibleSurfaceY > -1) {
+        jumping = 0;
+        spriteLocation[1] = floorYposition;
+    }
+
+    move_sprite( spriteID, spriteLocation[0], spriteLocation[1]);
+}
+
 void main(void){
     
     set_sprite_data(0, 8, bloke);   //defines the sprite data
@@ -44,7 +77,10 @@ void main(void){
     SHOW_SPRITES;
 
     while (1){
-
+        
+        if ( ( joypad() & J_A ) || jumping ){
+            jump(0, player_location);
+        }
 
         if ( joypad() & J_LEFT) {
             player_location[0] -= 2;
@@ -54,6 +90,7 @@ void main(void){
             player_location[0] += 2;
             move_sprite(0, player_location[0], player_location[1]);
         }
+
         performantdelay(5);
 
     }
