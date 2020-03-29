@@ -78,6 +78,12 @@ Two sprites are displayed in the screen at the same time.
 ![](img/9_meta-sprites.gif "9_meta-sprites")
 
 
+## 10_sprite_collision_detection
+
+It was implemented a collision function between sprites. 
+
+![](img/10_sprite_collision_detection.gif "10_sprite_collision_detection")
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
 + [Repo](http://bit.ly/2t676I4)
