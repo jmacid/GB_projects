@@ -84,6 +84,11 @@ It was implemented a collision function between sprites.
 
 ![](img/10_sprite_collision_detection.gif "10_sprite_collision_detection")
 
+## 11_background_collision_detection
+A mini game was implemented using background collision detection.
+
+![](img/11_background_collision_detection.gif "11_background_collision_detection")
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
 + [Repo](http://bit.ly/2t676I4)

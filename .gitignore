@@ -19,4 +19,6 @@
 9_meta-sprites/build/*
 !9_meta-sprites/build/9_meta-sprites.gb
 10_sprite_collision_detection/build/*
-!10_sprite_collision_detection/build/10_sprite_collision_detection
+!10_sprite_collision_detection/build/10_sprite_collision_detection.gb
+11_background_collision_detection/build/*
+!11_background_collision_detection/build/11_background_collision_detection.gb
