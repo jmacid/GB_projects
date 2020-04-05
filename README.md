@@ -89,6 +89,12 @@ A mini game was implemented using background collision detection.
 
 ![](img/11_background_collision_detection.gif "11_background_collision_detection")
 
+## 12_Splashscreens
+In this tutorial It was taught how to add a start image or splashscreen.
+
+![](img/12_Splashscreens.gif "12_Splashscreens")
+
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
 + [Repo](http://bit.ly/2t676I4)
