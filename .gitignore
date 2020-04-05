@@ -24,3 +24,6 @@
 !11_background_collision_detection/build/11_background_collision_detection.gb
 12_Splashscreens/build/*
 !12_Splashscreens/build/12_Splashscreens.gb
+13_fade_effect/build/*
+!13_fade_effect/build/13_fade_effect.gb
+

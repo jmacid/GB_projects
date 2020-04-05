@@ -94,6 +94,12 @@ In this tutorial It was taught how to add a start image or splashscreen.
 
 ![](img/12_Splashscreens.gif "12_Splashscreens")
 
+## 13_fade_effect
+Guess what... a fade effect was added to the splashscreen.
+
+This is made by modifying the *BGP_REG* register.
+
+![](img/13_fade_effect.gif "13_fade_effect")
 
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
