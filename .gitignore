@@ -26,4 +26,6 @@
 !12_Splashscreens/build/12_Splashscreens.gb
 13_fade_effect/build/*
 !13_fade_effect/build/13_fade_effect.gb
+14_keyboard/build/*
+!14_keyboard/build/14_keyboard.gb
 

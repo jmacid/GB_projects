@@ -101,6 +101,12 @@ This is made by modifying the *BGP_REG* register.
 
 ![](img/13_fade_effect.gif "13_fade_effect")
 
+## 14_keyboard
+Keyboad to name a player.
+
+![](img/14_keyboard.gif "14_keyboard")
+
+
 ## Video serie link:
 + [Learn how to develop your own GameBoy games](https://www.youtube.com/playlist?list=PLeEj4c2zF7PaFv5MPYhNAkBGrkx4iPGJos)
 + [Repo](http://bit.ly/2t676I4)
